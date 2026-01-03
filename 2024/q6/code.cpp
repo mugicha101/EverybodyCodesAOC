@@ -1,7 +1,6 @@
 #include "../../template.h"
 
 vector<string> solvePath() {
-
   unordered_map<string,vector<string>> adj;
   unordered_map<string,string> parent;
   string s;
